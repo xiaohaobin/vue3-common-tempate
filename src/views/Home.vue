@@ -20,5 +20,8 @@
 </script>
 
 <template>
-  <div>{{ res }}</div>
+  <div>
+    <b class="jc-icon-my-fanqizha">mock数据：</b>
+    {{ res }}
+  </div>
 </template>
