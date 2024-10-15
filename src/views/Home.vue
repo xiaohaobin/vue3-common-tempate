@@ -20,8 +20,29 @@
 </script>
 
 <template>
-  <div>
+  <div class="xhb-basic-help">
     <b class="jc-icon-my-fanqizha">mock数据：</b>
-    {{ res }}
+    <p>
+      {{ res }}
+    </p>
   </div>
 </template>
+
+<style lang="scss">
+  $prefix-cls: '#{$namespace}-basic-help';
+
+  .#{$prefix-cls} {
+    background: red;
+
+    &:hover {
+      background: green;
+    }
+
+    &__wrap {
+      p {
+        margin: 0;
+        font-weight: bolder;
+      }
+    }
+  }
+</style>
